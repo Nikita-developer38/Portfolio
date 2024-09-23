@@ -1,0 +1,8 @@
+.line{
+    width:100px;
+    height:1px;
+   border: 1px solid rgb(247, 143, 66);
+}
+.intro{
+    opacity: 0.6;
+}
