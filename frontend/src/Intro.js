@@ -10,7 +10,7 @@ function Intro() {
         <>
             <div className='d-flex flex-row justify-content-between'>
                 <div className='justify-content-start'>
-                    <div className='fw-bold fs-2'>
+                    <div className='fw-bold fs-1'>
                         Nikita Murmure
                     </div>
                     <div className='line' ></div>
@@ -27,7 +27,7 @@ function Intro() {
 
                 </div>
                 <div >
-                    <img className='w-75 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_eploAf7-IvaLD0oaNxXMO2Nwn1IXf08mw&s" />
+                    {/* <img className='w-75 ' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc_eploAf7-IvaLD0oaNxXMO2Nwn1IXf08mw&s" /> */}
                 </div>
 
             </div>
@@ -41,7 +41,7 @@ function Intro() {
                 </div>
                 <div className='rounded-pill'>
                     <button className='btn fw-bold rounded-pill' style={{ "backgroundColor": " rgb(247, 143, 66)" }}>Let's Talk
-                        <img src={arrow_right} className='ms-2' alt='..' />
+                        <img src={arrow_right} className='ms-2 rounded' alt='..' />
                     </button>
                 </div>
             </div >

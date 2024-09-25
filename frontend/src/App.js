@@ -2,6 +2,7 @@ import Navbar from './Navbar';
 import './App.css';
 import Intro from './Intro';
 import Project from './Project';
+import SkillsExperience from './SkillsExperience';
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Intro />
       <Project />
+      <SkillsExperience />
     </>
   );
 }
